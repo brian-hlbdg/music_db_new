@@ -1,0 +1,10 @@
+{application,music_db_new,
+             [{applications,[kernel,stdlib,elixir,logger,ecto_sql,postgrex]},
+              {description,"music_db_new"},
+              {modules,['Elixir.MusicDBNew','Elixir.MusicDBNew.Album',
+                        'Elixir.MusicDBNew.Application',
+                        'Elixir.MusicDBNew.Artist','Elixir.MusicDBNew.Genre',
+                        'Elixir.MusicDBNew.Repo','Elixir.MusicDBNew.Track']},
+              {registered,[]},
+              {vsn,"0.1.0"},
+              {mod,{'Elixir.MusicDBNew.Application',[]}}]}.
